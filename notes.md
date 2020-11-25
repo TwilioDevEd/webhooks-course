@@ -123,17 +123,14 @@ This is using a Webhook. When the message comes in, control is passed to your ap
 
 #### 📚 Learn more
 
-* [<Message> - Twilio Docs](https://www.twilio.com/docs/sms/twiml/message)
+* [`<Message>` - Twilio Docs](https://www.twilio.com/docs/sms/twiml/message)
 * [TwiML Bins](https://www.twilio.com/docs/runtime/tutorials/twiml-bins)
-
-TODO: Scaling
-
 
 ### Video 3 - Setting up the flow
 
 #### 📚 Learn more
 
-* [<Say> - Twilio docs](https://www.twilio.com/docs/voice/twiml/say)
+* [`<Say>` - Twilio docs](https://www.twilio.com/docs/voice/twiml/say)
 * [Polly Neural voices - Amazon docs](https://docs.aws.amazon.com/polly/latest/dg/NTTS-main.html)
 * [Twilio Studio](https://twilio.com/studio)
 
