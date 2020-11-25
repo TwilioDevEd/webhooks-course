@@ -1,3 +1,5 @@
+[![Learn to code with TwilioQuest](https://img.shields.io/static/v1?label=TwilioQuest&message=Learn%20to%20code%21&color=F22F46&labelColor=1f243c&style=flat-square&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAMAAAD04JH5AAAASFBMVEUAAAAZGRkcHBwjIyMoKCgAAABgYGBoaGiAgICMjIyzs7PJycnMzMzNzc3UoBfd3d3m5ubqrhfrMEDu7u739/f4vSb/3AD///9tbdyEAAAABXRSTlMAAAAAAMJrBrEAAAKoSURBVHgB7ZrRcuI6EESdyxXGYoNFvMD//+l2bSszRgyUYpFAsXOeiJGmj4NkuWx1Qeh+Ekl9DgEXOBwOx+Px5xyQhDykfgq4wG63MxxaR4ddIkg6Ul3g84vCIcjPBA5gmUMeXESrlukuoK33+33uID8TWeLAdOWsKpJYzwVMB7bOzYSGOciyUlXSn0/ABXTosJ1M1SbypZ4O4MbZuIDMU02PMbauhhHMHXbmebmALIiEbbbbbUrpF1gwE9kFfRNAJaP+FQEXCCTGyJ4ngDrjOFo3jEL5JdqjF/pueR4cCeCGgAtwmuRS6gDwaRiGvu+DMFwSBLTE3+jF8JyuV1okPZ+AC4hDFhCHyHQjdjPHUKFDlHSJkHQXMB3KpSwXNGJPcwwTdZiXlRN0gSp0zpWxNtM0beYE0nRH6QIbO7rawwXaBYz0j78gxjokDuv12gVeUuBD0MDi0OQCLvDaAho4juP1Q/jkAncXqIcCfd+7gAu4QLMACCLxpRsSuQh0igu0C9Svhi7weAGZg50L3IE3cai4IfkNZAC8dfdhsUD3CgKBVC9JE5ABAFzg4QL/taYPAAWrHdYcgfLaIgAXWJ7OV38n1LEF8tt2TH29E+QAoDoO5Ve/LtCQDmKM9kPbvCEBApK+IXzbcSJ0cIGF6e8gpcRhUDogWZ8JnaWjPXc/fNnBBUKRngiHgTUSivSzDRDgHZQOLvBQgf8rRt+VdBUUhwkU6VpJ+xcOwQUqZr+mR0kvBUgv6cB4+37hQAkXqE8PwGisGhJtN4xAHMzrsgvI7rccXqSvKh6jltGlrOHA3Xk1At3LC4QiPdX9/0ndHpGVvTjR4bZA1ypAKgVcwE5vx74ulwIugDt8e/X7JgfkucBMIAr26ndnB4UCLnDOqvteQsHlgX9N4A+c4cW3DXSPbwAAAABJRU5ErkJggg==)](https://twilio.com/quest?utm_source=gh-badge&utm_medium=referral&utm_campaign=webhooks-course)
+
 # Understanding Webhooks
 
 ## Unit 1  - Integration
@@ -8,7 +10,7 @@ In this unit we will focus on combining applications together. We'll do this by 
 
 #### Prerequisites
 
-* 🎥[APIs for Beginners on freeCodeCamp.org](https://www.youtube.com/watch?v=GZvSYJDk-us&feature=youtu.be)
+* 🎥[APIs for Beginners on freeCodeCamp](https://www.youtube.com/watch?v=GZvSYJDk-us&feature=youtu.be)
 
 #### 📚 Learn more
 
@@ -21,7 +23,6 @@ In this unit we will focus on combining applications together. We'll do this by 
 #### 📚 Learn more
 
 * [Event Driven Programming](https://wiki.c2.com/?EventDrivenProgramming)
-
 
 ### Video 3 - Lightbulb moment
 
@@ -40,17 +41,40 @@ In this unit we will focus on combining applications together. We'll do this by 
 
 ## Unit 2 - Capturing Data from a Webhook
 
+In this unit we'll take a look at a specific Webhook implementations [GitHub](https://github.com) and [Discord](https://discord.com).
+
 ### Video 1 - Diving into Webhooks
 
+* [First blog post about "Web hooks" - Wayback machine](https://web.archive.org/web/20180630220036/http://progrium.com/blog/2007/05/03/web-hooks-to-revolutionize-the-web/)
+
 ### Video 2 - Explore the Request
+
+* [Beeceptor](https://beeceptor.com)
 
 ### Video 3 - Using the Data
 
 ### Video 4 - Developing Locally
 
+⚠️ I made a mistake! I cloned in my `~/Code` directory because I forgot to `cd courses`.
+
+#### Installations
+
+* [Install Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+* [Install Node](https://nodejs.org/en/download/)
+* [Install npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
+
 ### Video 5 - Opening a Tunnel
 
-* [ngrok](https://ngrok.com)
+#### Installations
+
+* [Install ngrok](https://ngrok.com)
+* TODO: Add ngrok to your path
+
+Install [nodemon](https://www.npmjs.com/package/nodemon):
+
+```bash
+npm install -g nodemon
+```
 
 #### 📚 Learn more
 
@@ -60,20 +84,99 @@ In this unit we will focus on combining applications together. We'll do this by 
 
 * [Netlify](https://www.netlify.com)
 
+```bash
+npm install netlify-cli -g
+```
+
+#### 📚 Learn more
+
+* [Making asynchronous programming easier with async and await
+](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Async_await)
+* [Netlify Dev - Local server](https://www.netlify.com/products/dev/)
+
 #### 🖊 Correction
 
-📓 I figured out what my problem was! After you change environment variables in Netlify you need to reboot. I decided to keep the bugs in there so you know that we all make mistakes, and how to debug a webhook. I hope you enjoy the lemonade made from the lemons of that bit 🍋.
+📓 I figured out what my problem was! After you change environment variables in Netlify, you need to reboot. I decided to keep the bugs in there so you know that we all make mistakes, and also how to debug a webhook.
+
+I hope you enjoy the lemonade made from the lemons of that bit 🍋s.
 
 ### Unit 3 - Hooking it altogether
+
+In this unit we'll build an entire application that leans almost entirely on the concept of Webhooks. We'll build an idea capturing hotline that transcribes the ideas and then sends you a text message.
 
 ### Video 1 - Introducing the projects
 
 ### Video 2 - Text Affirmation
 
+* [Twilio Signup](https://www.twilio.com/referral/d4X15O)
+* [How to use your free trial account - Twilio Docs](https://www.twilio.com/docs/usage/tutorials/how-to-use-your-free-trial-account)
+
+The following [TwiML](https://twilio.com/docs/sms/twiml) will send a text message when set up to handle incoming messages.
+
+```xml
+<Response>
+    <Message>You got this!💪</Message>
+</Response>
+```
+
+This is using a Webhook. When the message comes in, control is passed to your application (it just happens to be in a TwiML Bin), and you return these instructions.
+
+#### 📚 Learn more
+
+* [<Message> - Twilio Docs](https://www.twilio.com/docs/sms/twiml/message)
+* [TwiML Bins](https://www.twilio.com/docs/runtime/tutorials/twiml-bins)
+
+TODO: Scaling
+
+
 ### Video 3 - Setting up the flow
+
+#### 📚 Learn more
+
+* [<Say> - Twilio docs](https://www.twilio.com/docs/voice/twiml/say)
+* [Polly Neural voices - Amazon docs](https://docs.aws.amazon.com/polly/latest/dg/NTTS-main.html)
+* [Twilio Studio](https://twilio.com/studio)
 
 ### Video 4 - Handle things locally
 
+* [Twilio CLI Quickstart](https://www.twilio.com/docs/twilio-cli/quickstart)
+
+```bash
+npm install twilio-cli -g
+```
+
+Optionally on a Mac, you could use [Homebrew](https://brew.sh)
+
+```bash
+brew tap twilio/brew && brew install twilio
+```
+
+Install the [Serverless Toolkit](https://www.twilio.com/docs/labs/serverless-toolkit) plugin:
+
+```bash
+twilio plugins:install @twilio-labs/plugin-serverless
+```
+
+Serverless Function boilerplate:
+
+```javascript
+exports.handler = (context, event, callback) => {
+  callback(null, "Hi mom!");
+};
+```
+
+Start your local development server
+
+```bash
+twilio serverless:start
+```
+
 ### Video 5 - Deploying your serverless function
 
+```bash
+twilio serverless:deploy
+```
+
 ### Video 6 - That’s a Wrap
+
+* 🎮[TwilioQuest - Learn to code and save the cloud]()
