@@ -1,5 +1,5 @@
 {
-  "name": "local-discorder",
+  "name": "express-discorder",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
