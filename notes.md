@@ -53,22 +53,27 @@ In this unit we'll take a look at a specific Webhook implementations [GitHub](ht
 
 ### Video 3 - Using the Data
 
+* [Best Developer Communities to be a part of in 2020 - freeCodeCamp.org](https://www.freecodecamp.org/news/best-developer-communities-to-be-part-of-in-2020/)
+
 ### Video 4 - Developing Locally
 
 ⚠️ I made a mistake! I cloned in my `~/Code` directory because I forgot to `cd courses`.
 
 #### Installations
 
+* [14 ways to open Command Prompt in Windows 10](https://www.digitalcitizen.life/open-cmd/)
 * [Install Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 * [Install Node](https://nodejs.org/en/download/)
 * [Install npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
+* [Install Visual Studio Code](https://code.visualstudio.com/download)
+* [Optional - Connect GitHub with ssh](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/connecting-to-github-with-ssh)
 
 ### Video 5 - Opening a Tunnel
 
 #### Installations
 
 * [Install ngrok](https://ngrok.com)
-* TODO: Add ngrok to your path
+* [Install ngrok to your path - Stack Overflow](https://stackoverflow.com/questions/30188582/ngrok-command-not-found)
 
 Install [nodemon](https://www.npmjs.com/package/nodemon):
 
@@ -93,10 +98,11 @@ npm install netlify-cli -g
 * [Making asynchronous programming easier with async and await
 ](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Async_await)
 * [Netlify Dev - Local server](https://www.netlify.com/products/dev/)
+* [Cloud Computing Providers - GitHub](https://github.com/tmrts/awesome-cloud-computing)
 
 #### 🖊 Correction
 
-📓 I figured out what my problem was! After you change environment variables in Netlify, you need to reboot. I decided to keep the bugs in there so you know that we all make mistakes, and also how to debug a webhook.
+📓 I figured out what my problem was! After you change environment variables in Netlify, you need to re-deploy. That's the reason it worked once I re-deployed it. I decided to keep the bugs in there so you know that **we all make mistakes**. Also it should give you some first hand knowledge of how to debug a webhook.
 
 I hope you enjoy the lemonade made from the lemons of that bit 🍋s.
 
