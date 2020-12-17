@@ -2,8 +2,7 @@
 
 # Understanding Webhooks
 
-[![Watch Webhooks for Beginners on freeCodeCamp](https://img.youtube.com/vi/VID/41NOoEz3Tzc.jpg)](https://www.youtube.com/watch?v=41NOoEz3Tzc)
-
+[![Watch the video on freeCodeCamp](https://img.youtube.com/vi/41NOoEz3Tzc/maxresdefault.jpg)](https://youtu.be/41NOoEz3Tzc)
 This repository contains detailed notes and code for the Understanding Webhooks course 💡
 
 * [🚀 Code](./code)
