@@ -46,6 +46,7 @@ In this unit we'll take a look at a specific Webhook implementations [GitHub](ht
 ### Video 1 - Diving into Webhooks
 
 * [First blog post about "Web hooks" - Wayback machine](https://web.archive.org/web/20180630220036/http://progrium.com/blog/2007/05/03/web-hooks-to-revolutionize-the-web/)
+* [📹 Web Hooks and the Programmable World of Tomorrow- 2009 talk about Webhooks @ Google](https://www.youtube.com/watch?v=Fw8EPrIjCOc)
 
 ### Video 2 - Explore the Request
 
