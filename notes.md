@@ -52,6 +52,9 @@ In this unit we'll take a look at a specific Webhook implementations [GitHub](ht
 
 * [Beeceptor](https://beeceptor.com)
 
+#### 📚 Learn more
+* [🎮 TwilioQuest - The Flame of Open Source - Learn to use GitHub](https://www.twilio.com/quest/learn/open-source?utm_source=freecodecamp&utm_medium=github&utm_campaign=webhooks)
+
 ### Video 3 - Using the Data
 
 * [Best Developer Communities to be a part of in 2020 - freeCodeCamp.org](https://www.freecodecamp.org/news/best-developer-communities-to-be-part-of-in-2020/)
@@ -183,4 +186,4 @@ twilio serverless:deploy
 
 ### Video 6 - That’s a Wrap
 
-* 🎮[TwilioQuest - Learn to code and save the cloud]()
+* 🎮 [TwilioQuest - Learn to code and save the cloud](https://www.twilio.com/quest?utm_source=freecodecamp&utm_medium=github&utm_campaign=webhooks)
