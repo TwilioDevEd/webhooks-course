@@ -35,7 +35,7 @@ In this unit we will focus on combining applications together. We'll do this by 
 
 #### 📚 Learn more
 
-* The dog lamp [LIFX lightbulb] (https://www.lifx.com/collections/lamps-and-pendants/products/lifx-color-a19)
+* The dog lamp [LIFX lightbulb](https://www.lifx.com/collections/lamps-and-pendants/products/lifx-color-a19)
 
 ### Video 4 - Finding Inspiration
 
@@ -51,6 +51,9 @@ In this unit we'll take a look at a specific Webhook implementations [GitHub](ht
 ### Video 2 - Explore the Request
 
 * [Beeceptor](https://beeceptor.com)
+
+#### 📚 Learn more
+* [🎮 TwilioQuest - The Flame of Open Source - Learn to use GitHub](https://www.twilio.com/quest/learn/open-source?utm_source=freecodecamp&utm_medium=github&utm_campaign=webhooks)
 
 ### Video 3 - Using the Data
 
@@ -183,4 +186,4 @@ twilio serverless:deploy
 
 ### Video 6 - That’s a Wrap
 
-* 🎮[TwilioQuest - Learn to code and save the cloud]()
+* 🎮 [TwilioQuest - Learn to code and save the cloud](https://www.twilio.com/quest?utm_source=freecodecamp&utm_medium=github&utm_campaign=webhooks)
