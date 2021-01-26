@@ -35,7 +35,7 @@ In this unit we will focus on combining applications together. We'll do this by 
 
 #### 📚 Learn more
 
-* The dog lamp [LIFX lightbulb](https://www.lifx.com/collections/lights/products/lifx-mini-color)
+* The dog lamp [LIFX lightbulb](https://www.lifx.com/collections/lamps-and-pendants/products/lifx-color-a19)
 
 ### Video 4 - Finding Inspiration
 
