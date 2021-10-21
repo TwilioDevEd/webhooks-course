@@ -38,6 +38,13 @@ app.post("/github", (req, res) => {
     .catch((err) => console.error(`Error sending to Discord: ${err}`));
 });
 
+app.use((error, req, res, next) => {
+  res.status(500)
+  res.send({error: error})
+  console.error(error.stack)
+  next(error)
+})
+
 app.listen(port, () =>
   console.log(`Example app listening at http://localhost:${port}`)
 );
